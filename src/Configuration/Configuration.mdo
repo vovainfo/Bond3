@@ -29,6 +29,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>Version8_5</interfaceCompatibilityMode>
   <compatibilityMode>8.5.1</compatibilityMode>
   <languages uuid="e553f69a-513e-48f4-bcb0-be66e31fb27a">
     <name>Русский</name>
@@ -38,4 +39,8 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonPictures>CommonPicture.Копировать2</commonPictures>
+  <commonModules>CommonModule.БондОбщий</commonModules>
+  <commonModules>CommonModule.КоннекторHTTP</commonModules>
+  <catalogs>Catalog.Облигации</catalogs>
 </mdclass:Configuration>
