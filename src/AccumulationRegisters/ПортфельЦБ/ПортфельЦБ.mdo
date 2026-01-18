@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75d5c264-7ebe-486e-9db3-8c60bbac5ad6">
+  <producedTypes>
+    <selectionType typeId="484aabe3-56f6-4610-9131-4473036c356a" valueTypeId="41ce9b0e-3e22-4499-b9c6-c19f319091d7"/>
+    <listType typeId="ea2005b0-74e4-4c06-aaf1-d3b888a3ac88" valueTypeId="22719008-0f98-4e57-a919-2a1bda9323f1"/>
+    <managerType typeId="f97e1c24-7a4a-42bb-8d99-ade6b7d4cb8b" valueTypeId="9ab2774b-6dd2-4cb8-8cb1-3cd92713bf32"/>
+    <recordSetType typeId="72111323-882f-49d3-929d-9fbaab5b7d4b" valueTypeId="8c304509-46d1-4d80-9ddd-771a527aba4b"/>
+    <recordKeyType typeId="58c550cf-718e-4827-9831-f87d03c37875" valueTypeId="7208a8c4-eab4-4509-bfd0-1bb2c7efb81a"/>
+    <recordType typeId="18b4ef91-8b84-4a2d-8dd7-e488fff4bb28" valueTypeId="16870fca-4c79-43c8-9dce-c3308d2c89f5"/>
+  </producedTypes>
+  <name>ПортфельЦБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Портфель ЦБ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="a3451d53-b69a-4a5b-829a-f92c601d9cde">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="93f2fe3c-60f3-4212-8e40-825224968e64">
+    <name>Портфель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Портфель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Портфели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a3e137c1-edf5-48fe-864e-c60f5f7ae2aa">
+    <name>ЦБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЦБ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Облигации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

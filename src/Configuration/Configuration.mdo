@@ -43,4 +43,9 @@
   <commonModules>CommonModule.БондОбщий</commonModules>
   <commonModules>CommonModule.КоннекторHTTP</commonModules>
   <catalogs>Catalog.Облигации</catalogs>
+  <catalogs>Catalog.Портфели</catalogs>
+  <documents>Document.ПокупкаЦБ</documents>
+  <dataProcessors>DataProcessor.ЗагрузкаКотировок</dataProcessors>
+  <informationRegisters>InformationRegister.КотировкиЦБ</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПортфельЦБ</accumulationRegisters>
 </mdclass:Configuration>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c633678-66a2-438e-afcc-3ef26632cc96">
+  <producedTypes>
+    <objectType typeId="d3621e8c-d454-4947-b34e-ff1dcc2dff32" valueTypeId="11b82412-3cbf-4169-81fa-21ef5a06a332"/>
+    <managerType typeId="4dd45b4e-fb88-4a00-86cd-80fb64f7fa7a" valueTypeId="e84ba46a-caf2-4255-b1a0-d6559b89d833"/>
+  </producedTypes>
+  <name>ЗагрузкаКотировок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка котировок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаКотировок.Form.Форма</defaultForm>
+  <forms uuid="17dac05c-90c9-475c-933f-b35f607939e3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

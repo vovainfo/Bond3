@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebf0efeb-3815-47ac-859b-e421b69d5ed4">
+  <producedTypes>
+    <selectionType typeId="3c2cd266-aa21-4dda-bb77-434f4d39c0d6" valueTypeId="03320238-f6f7-40cc-8fee-e3876162c65f"/>
+    <listType typeId="5fd6939e-6e04-47e3-94df-0004462eb3e7" valueTypeId="27ab0d18-e3f5-4a60-9ab8-b295fc759462"/>
+    <managerType typeId="32ba2b5c-6e40-49d4-a92f-0d236a89508f" valueTypeId="a02a5234-881b-4aa8-8e50-be40fcd81a68"/>
+    <recordSetType typeId="42afd4cf-5392-4233-9662-160b70035195" valueTypeId="c4be9a1e-5802-4ccf-ad9e-f1214f3ebd03"/>
+    <recordKeyType typeId="b71c0e92-989d-4cda-9734-7404a7c3a71b" valueTypeId="dd03dbec-be91-4008-8c94-be938db2b5c0"/>
+    <recordType typeId="4f7bb363-681c-4647-ab97-90b0c9a131c6" valueTypeId="f8a098d1-56c3-4338-b4eb-55d6cda18ddb"/>
+    <recordManagerType typeId="e3f131ba-3e92-4249-9f5e-c88123e6c096" valueTypeId="66b9fb1d-0029-43a5-b759-e383ff7dafcc"/>
+  </producedTypes>
+  <name>КотировкиЦБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Котировки ЦБ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3649dce9-5ae0-4df4-a191-0ff9c993495d">
+    <name>ЦенаЗакрытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена закрытия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="635d3862-2e76-4354-acaf-4a5a6f76d759">
+    <name>ЦенаОткрытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена открытия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="330e6b6e-6f87-419c-bf40-6fc0fe3455d8">
+    <name>ЦенаМаксимум</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена максимум</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="eb543fab-1893-4ebe-9316-e959a3973844">
+    <name>ЦенаМинимум</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена минимум</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="735233b4-e978-4eb3-a6f7-3be44991baa3">
+    <name>Объем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f2718dc2-c512-49bd-b76f-8fbd4e8e10d6">
+    <name>ОбъемРубли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем рубли</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4d11f57c-b4dd-4b4f-866e-9d43a5fedf1e">
+    <name>НКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>НКД</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e7726a22-39fc-4611-9eef-47548a717021">
+    <name>СделокКоличество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сделок количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4c6c5dd5-b1bb-4b40-90a0-c206cc533eb4">
+    <name>ЦенаПоследняя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена последняя</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="dd28218a-b7ab-4c0e-b830-a74868ab8985">
+    <name>ЦБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЦБ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Облигации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
